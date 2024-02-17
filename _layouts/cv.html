@@ -15,23 +15,28 @@ layout: default
                 <div class="card mt-3 p-3">
                   <h3 class="card-title font-weight-medium">{{ entry.title }}</h3>
                   <div>
-                    {% if entry.type == "list" %}
+                    {% if entry.type == "map" %}
+                      {% for content in entry.contents %}
+                        {% if content.name == "publications" %}
+                          <!-- Custom handling for publications -->
+                          <a href="{{ content.value | relative_url }}" class="btn btn-primary">View Publications</a>
+                        {% else %}
+                          <p><strong>{{ content.name }}:</strong> {{ content.value }}</p>
+                        {% endif %}
+                      {% endfor %}
+                    {% elsif entry.type == "list" %}
                       {% include cv/list.html %}
-                    {% elsif entry.type == "map" %}
-                      {% include cv/map.html %}
                     {% elsif entry.type == "nested_list" %}
                       {% include cv/nested_list.html %}
                     {% elsif entry.type == "time_table" %}
                       {% include cv/time_table.html %}
-                    {% elsif entry.title == "publications" %}
-                      <!-- Custom handling for publications -->
-                      <a href="{{ entry.value | relative_url }}" class="btn btn-primary">View Publications</a>
                     {% else %}
                       {{ entry.contents }}
                     {% endif %}
                   </div>
                 </div>
               {% endfor %}
+
 
               </div>
           </article>
