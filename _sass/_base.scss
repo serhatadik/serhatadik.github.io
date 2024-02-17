@@ -1,3 +1,5 @@
+I have a webpage like this:
+I want to move the news section upper right below my bio and next to my pic. Modify this script to make that happen:
 /*******************************************************************************
  * Styles for the base elements of the theme.
  ******************************************************************************/
@@ -112,7 +114,7 @@ blockquote {
 // Profile
 
 .profile {
-  width: 50%;
+  width: 100%;
 
   .address {
     margin-bottom: 5px;
@@ -136,7 +138,7 @@ blockquote {
 
 @media (min-width: 576px) {
   .profile {
-    width: 25%;
+    width: 30%;
 
     .address {
       p {
