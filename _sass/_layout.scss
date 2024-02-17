@@ -35,6 +35,27 @@ body.sticky-bottom-footer {
 
 // TODO: redefine content layout.
 
+.profile-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start; /* Aligns items to the start of the flex container */
+}
+
+.profile {
+  flex: 1; /* Allow the profile to grow as needed */
+  margin-right: 1rem; /* Add some space between the profile and the news */
+}
+
+.news-section {
+  flex: 2; /* Allow the news section to take up twice the space of the profile, adjust as needed */
+}
+
+/* Ensure the layout stacks on smaller screens */
+@media (max-width: 768px) {
+  .profile-content {
+    flex-direction: column;
+  }
+}
 
 /******************************************************************************
  * Publications
