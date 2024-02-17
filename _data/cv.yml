@@ -40,7 +40,7 @@
   type: time_table
   contents:
     - title: Research and Development Intern
-      institution: Cognosos, Inc.
+      institution: Cognosos Inc., USA
       year: 2024-Present
       description:
         - Description 1.
@@ -49,18 +49,18 @@
           contents:
             - Sub-description 1.
             - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+    - title: Machine Learning Engineer
+      institution: Caretta Software, Turkey
+      year: 2021-2022
       description:
         - Description 1.
         - Description 2.
 
-    - title: Director
+    - title:
       institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
       year: 1917-1933
 
-    - title: Professor of Theoretical Physics
+    - title: Professor
       institution: Karl-Ferdinand University, Prague, Czechoslovakia
       year: 1911 - 1917
       description:
