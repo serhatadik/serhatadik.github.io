@@ -22,7 +22,22 @@ layout: default
                           <p><strong>{{ content.name }}:<a href="{{ content.value | relative_url }}"> View Publications</a></p>
                           <!--  -->
                         {% elsif content.name == "Frameworks & Tools" %}
-                          <p><strong>{{ content.name }}:</strong> {{ "Python <i class="fa {{ item.icon }}"></i> (PyTorch, PyG, Tensorflow, Streamlit), SQL, AWS (Sagemaker, Lambda), MATLAB, Julia, Git, C, C++, GIS" }}</p>
+                        <p>
+                          <strong>{{ content.name }}:</strong>
+                          Python <i class="fa fa-python"></i>,
+                          PyTorch <i class="fa fa-fire"></i>,
+                          PyG,
+                          Tensorflow,
+                          Streamlit,
+                          SQL <i class="fa fa-database"></i>,
+                          AWS <i class="fa fa-cloud"></i>,
+                          MATLAB,
+                          Julia,
+                          Git <i class="fa fa-git-square"></i>,
+                          C, 
+                          C++,
+                          GIS
+                        </p>
                         {% else %}
                           <p><strong>{{ content.name }}:</strong> {{ content.value }}</p>
                         {% endif %}
