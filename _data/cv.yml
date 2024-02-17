@@ -7,6 +7,8 @@
       value: English, Turkish
     - name: Frameworks & Tools
       value: Python (PyTorch, PyG, Tensorflow, Streamlit), SQL, AWS (Sagemaker, Lambda), MATLAB, Julia, Git, C, C++, GIS
+    - name: publications
+      value: /publications/
 - title: Education
   type: time_table
   contents:
@@ -15,7 +17,7 @@
       year: 2023-Present
       description:
         - Took part in the implementation of an ambient scatter communications system. Worked on a complex-
-          valued neural network demodulation technique in Python using PyTorch that outperforms conventional de-
+        valued neural network demodulation technique in Python using PyTorch that outperforms conventional de-
           modulation techniques such as matched filtering.
         - Improving existing electromagnetic wave propagation models by applying regularized regression-based error
           correction to the models considering channel and propagation characteristics in Python (PyTorch) and MATLAB.
