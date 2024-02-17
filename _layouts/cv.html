@@ -19,8 +19,8 @@ layout: default
                       {% for content in entry.contents %}
                         {% if content.name == "publications" %}
                           <!-- Custom handling for publications -->
-                          <p><strong>{{ content.name }}:</strong> {{ content.value | relative_url}}</p>
-                          <!-- <a href="{{ content.value | relative_url }}" class="btn btn-primary">View Publications</a> -->
+                          <p><strong>{{ content.name }}:<a href="{{ content.value | relative_url }}" class="btn btn-primary">View Publications</a></p>
+                          <!--  -->
                         {% else %}
                           <p><strong>{{ content.name }}:</strong> {{ content.value }}</p>
                         {% endif %}
