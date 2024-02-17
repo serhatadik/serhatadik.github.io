@@ -6,7 +6,7 @@
     - name: Languages
       value: "English, Turkish"
     - name: Frameworks & Tools
-      value: "Python (PyTorch, PyG, Tensorflow, Streamlit), SQL, AWS (Sagemaker, Lambda), MATLAB, Julia, Git, C, C++, GIS"
+      value: 
     - name: Publications
       value: "/publications/"
 - title: Education
