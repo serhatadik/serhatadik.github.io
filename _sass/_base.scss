@@ -707,12 +707,11 @@ footer.sticky-bottom {
 
 .profile {
   flex: 1; /* Allow the profile to grow as needed */
-  order: 2;
   margin-right: 1rem; /* Add some space between the profile and the news */
 }
 
 .news-section {
-  flex: 1; /* Allow the news section to take up twice the space of the profile, adjust as needed */
+  flex: 2; /* Allow the news section to take up twice the space of the profile, adjust as needed */
 }
 
 /* Ensure the layout stacks on smaller screens */
