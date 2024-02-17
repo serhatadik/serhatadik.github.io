@@ -21,6 +21,8 @@ layout: default
                           <!-- Custom handling for publications -->
                           <p><strong>{{ content.name }}:<a href="{{ content.value | relative_url }}"> View Publications</a></p>
                           <!--  -->
+                        {% elsif content.name == "Frameworks & Tools" %}
+                          <p><strong>{{ content.name }}:</strong> {{ "Python <i class="fa {{ item.icon }}"></i> (PyTorch, PyG, Tensorflow, Streamlit), SQL, AWS (Sagemaker, Lambda), MATLAB, Julia, Git, C, C++, GIS" }}</p>
                         {% else %}
                           <p><strong>{{ content.name }}:</strong> {{ content.value }}</p>
                         {% endif %}
