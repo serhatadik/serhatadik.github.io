@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our latest paper \it POWDER-RDZ: Prototyping a Radio Dynamic Zone using the POWDER platform is accepted for publication to IEEE DySPAN! :sparkles:
+Our latest paper <em>POWDER-RDZ: Prototyping a Radio Dynamic Zone using the POWDER platform</em> is accepted for publication to IEEE DySPAN! ✨
