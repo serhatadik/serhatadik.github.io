@@ -32,16 +32,16 @@
         - Done undergraduate thesis on "A Comparison Between GNN Architectures and Implementation on Brain Connectomes".
           Used Python/PyTorch and Julia for node classification on a citation network and graph classification on brain
           connectomes structured as graphs. Showed that graph isomorphism networks (GIN) outperform graph convolutional
-          networks (GCN) in graph classification tasks thanks to their isomorphic neighbor aggregation and graph readout 
+          networks (GCN) in graph classification tasks thanks to their isomorphic neighbor aggregation and graph readout
           operations.
         - Description 2.
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Research and Development Intern
+      institution: Cognosos, Inc.
+      year: 2024-Present
       description:
         - Description 1.
         - Description 2.
