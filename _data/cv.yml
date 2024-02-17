@@ -2,13 +2,13 @@
   type: map
   contents:
     - name: Full Name
-      value: Serhat Tadik
+      value: "Serhat Tadik"
     - name: Languages
-      value: English, Turkish
+      value: "English, Turkish"
     - name: Frameworks & Tools
-      value: Python (PyTorch, PyG, Tensorflow, Streamlit), SQL, AWS (Sagemaker, Lambda), MATLAB, Julia, Git, C, C++, GIS
+      value: "Python (PyTorch, PyG, Tensorflow, Streamlit), SQL, AWS (Sagemaker, Lambda), MATLAB, Julia, Git, C, C++, GIS"
     - name: publications
-      value: /publications/
+      value: "/publications/"
 - title: Education
   type: time_table
   contents:
