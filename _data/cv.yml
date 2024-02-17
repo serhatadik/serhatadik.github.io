@@ -13,12 +13,13 @@
       institution: Georgia Institute of Technology
       year: 2023-Present
       description:
-        - Took part in the implementation of an ambient scatter communications system. Worked on a complex-valued neural network demodulation technique in Python using PyTorch that outperforms conventional de-
-modulation techniques such as matched filtering.
+        - Took part in the implementation of an ambient scatter communications system. Worked on a complex-
+          valued neural network demodulation technique in Python using PyTorch that outperforms conventional de-
+          modulation techniques such as matched filtering.
         - Improving existing electromagnetic wave propagation models by applying regularized regression-based error
-correction to the models considering channel and propagation characteristics in Python (PyTorch) and MAT-
-LAB. Includes feature design & engineering and a multilayer regression model. The proposed model enables
-a 58% to 87% reduction in loss difference (error) variance.
+          correction to the models considering channel and propagation characteristics in Python (PyTorch) and MAT-
+          LAB. Includes feature design & engineering and a multilayer regression model. The proposed model enables
+          a 58% to 87% reduction in loss difference (error) variance.
         - title: Description 3.
           contents:
             - Sub-description 1.
