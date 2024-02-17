@@ -43,11 +43,13 @@ body.sticky-bottom-footer {
 
 .profile {
   flex: 1; /* Allow the profile to grow as needed */
+  order: 2;
   margin-right: 1rem; /* Add some space between the profile and the news */
 }
 
 .news-section {
-  flex: 2; /* Allow the news section to take up twice the space of the profile, adjust as needed */
+  flex: 1; /* Allow the news section to take up twice the space of the profile, adjust as needed */
+  order: 1;
 }
 
 /* Ensure the layout stacks on smaller screens */
