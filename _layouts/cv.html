@@ -17,9 +17,9 @@ layout: default
                   <div>
                     {% if entry.type == "map" %}
                       {% for content in entry.contents %}
-                        {% if content.name == "publications" %}
+                        {% if content.name == "Publications" %}
                           <!-- Custom handling for publications -->
-                          <p><strong>{{ content.name }}:<a href="{{ content.value | relative_url }}">View Publications</a></p>
+                          <p><strong>{{ content.name }}:<a href="{{ content.value | relative_url }}"> View Publications</a></p>
                           <!--  -->
                         {% else %}
                           <p><strong>{{ content.name }}:</strong> {{ content.value }}</p>
