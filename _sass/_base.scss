@@ -699,37 +699,6 @@ footer.sticky-bottom {
     }
   }
 }
-.post {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: flex-start;
-}
-
-.left-content {
-  flex: 1;
-  order: 1; /* Ensures that the bio and news section come first */
-  max-width: calc(100% - 200px); /* Adjust the width as needed */
-}
-
-.profile {
-  flex: 0 0 200px; /* Adjust width as needed and prevent growing */
-  order: 2; /* Ensures that the profile picture comes after the bio and news */
-  margin-left: 20px; /* Adjust spacing as needed */
-}
-
-/* Ensure the layout stacks on smaller screens */
-@media (max-width: 768px) {
-  .post {
-    flex-direction: column;
-  }
-
-  .left-content,
-  .profile {
-    order: 0; /* Reset the order for small screens */
-    max-width: 100%;
-    flex: auto; /* Allow both elements to take the necessary space */
-  }
-}
 
 // Rouge Color Customization
 figure.highlight {
