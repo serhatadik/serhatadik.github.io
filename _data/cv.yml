@@ -10,7 +10,7 @@
   type: time_table
   contents:
     - title: PhD in ECE
-      institution: Georgia Institute of Technology
+      institution: Georgia Institute of Technology, USA
       year: 2023-Present
       description:
         - Took part in the implementation of an ambient scatter communications system. Worked on a complex-
@@ -25,11 +25,15 @@
           cycle, and confidence values for various radio users in a region of interest using georeferenced maps. Utilized
           GIS, OSM, Python, and MATLAB.
 
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+    - title: BsC in Electrical Engineering & Physics
+      institution: Bogazici University, Turkey
+      year: 2016-2022
       description:
-        - Description 1.
+        - Done undergraduate thesis on "A Comparison Between GNN Architectures and Implementation on Brain Connectomes".
+          Used Python/PyTorch and Julia for node classification on a citation network and graph classification on brain
+          connectomes structured as graphs. Showed that graph isomorphism networks (GIN) outperform graph convolutional
+          networks (GCN) in graph classification tasks thanks to their isomorphic neighbor aggregation and graph readout 
+          operations.
         - Description 2.
 
 - title: Experience
