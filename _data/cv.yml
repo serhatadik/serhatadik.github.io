@@ -6,13 +6,13 @@
     - name: Languages
       value: "English, Turkish"
     - name: Frameworks & Tools
-      value: 
+      value:
     - name: Publications
       value: "/publications/"
 - title: Education
   type: time_table
   contents:
-    - title: PhD in ECE
+    - title: PhD in ECE Dept.
       institution: Georgia Institute of Technology, USA
       year: 2023-Present
       description:
