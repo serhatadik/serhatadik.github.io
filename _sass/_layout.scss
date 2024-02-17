@@ -33,6 +33,11 @@ body.sticky-bottom-footer {
   }
 }
 
+.news{
+  width: 70%; /* Set your desired width */
+  max-width: 100%; /* To ensure it doesn't overflow its container */
+}
+
 // TODO: redefine content layout.
 /******************************************************************************
  * Publications
