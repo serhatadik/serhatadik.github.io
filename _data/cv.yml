@@ -64,18 +64,28 @@
           accurate prediction. Showed that the accuracy can be improved by at least 0.5 % through voting.
         - Showed that combining samples at the training and inference stages improve the accuracy by up to 1.6%
           by eliminating noise and nulls in the time series distribution of signal strength.
-        - Developed a radio-mapping diagnostics tool that help detect outliers in the radio-mapping process. This,
+        - Developed a radio-mapping diagnostics tool that helps detect outliers in the radio-mapping process. This,
           in turn, helps repeating radio-mapping of certain zones when necessary increasing reliability of the data
           used for training.
-        - Responsible for many data collection campaigns within the office that help analyze what kind of tools provide
+        - Responsible for many data collection campaigns that help analyze what kind of tools provide
           better accuracy and determine the optimal transmitter density to achieve the maximum accuracy.
     - title: Machine Learning Engineer
       institution: Caretta Software, Turkey
       year: 2021-2022
       description:
-        - Description 1.
-        - Description 2.
-
+        - The work included feature design & engineering, customer segmentation, and churn prediction analysis.
+          Experimented with major clustering algorithms including KMeans, Gaussian mixtures, DBSCAN, and agglomerative
+          clustering. Successfully clustered customers with small intra-cluster variance and large inter-cluster variance.
+          Built insights from these clusters that helped analyze customer shopping behavior.
+        - Utilized PyTorch for training an ANN classification model for churn prediction as well as SQL to manipulate the data.
+          The promotions/nofitications specifically targeted for the predicted customers that had the potential to churn then
+          resulted in the re-engagement of 26% of those customers.
+        - Worked on customer product recommendation using graph neural networks. Experimented with major GNN algorithms
+          including graph isomorphism network (GIN), graph convolutional network (GCN), GraphSAGE, and graph attention
+          network (GAT). Using a GAT model that leverages customer-customer and product-product relations extracted from matrix
+          decomposition along with the known transactions resulted in customer transaction prediction with an accuracy of 90%.
+          This work has been accepted for publication in IEEE Signal Processing and Communications Applications Conference and
+          is available online.
     - title:
       institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
       year: 1917-1933
