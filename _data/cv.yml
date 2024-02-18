@@ -17,13 +17,12 @@
       year: 2023-Present
       description:
         - Developed a method to quantify and visualize what is known about spectrum occupancy in a region from
-          spectrum monitoring data recorded at a few fixed locations. The average observed signal strengths at the
-          monitors are extrapolated throughout the region through likelihood estimation of transmitter location(s)
-          and a simple log-distance path loss model. New georeferenced spectrum occupancy visualizations
+          spectrum monitoring data recorded at a few fixed locations. Extrapolated the average observed signal strengths at the
+          monitors throughout the region through likelihood estimation of transmitter location(s)
+          and a simple log-distance path loss model. Introduced new georeferenced spectrum occupancy visualizations
           that combine estimates of occupancy power with duty cycle, and of signal variation with confidence
-          level are introduced offering insights into planning for future allocations, interference, and broadcast
-          coverage analysis. The spectrum consumption trends over different times of day and seasons are analyzed and
-          interpreted.
+          level offering insights into planning for future allocations, interference, and broadcast
+          coverage analysis. Analyzed and interpreted the spectrum consumption trends over different times of day and seasons.
         - Took part in the implementation of an ambient scatter communications system. Worked on a complex-
           valued neural network demodulation technique in Python using PyTorch that outperforms conventional de-
           modulation techniques such as matched filtering.
@@ -45,7 +44,6 @@
           connectomes structured as graphs. Showed that graph isomorphism networks (GIN) outperform graph convolutional
           networks (GCN) in the graph classification task thanks to their isomorphic neighbor aggregation and graph readout
           operations.
-        - Description 2.
 
 - title: Experience
   type: time_table
@@ -61,13 +59,16 @@
           multiple predictions with associated probabilities. Illustrated that the models' first two predictions
           provide an accuracy greater than 99% that has the potential to improve customer satisfaction. Trained and
           deployed the aforementioned models developed through PyTorch in AWS using Sagemaker and Lambda.
-        - Suggested and implemented various voting algorithms that combine multiple models' predictions for a more
-          stable and accurate prediction. Showed that
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
+        - Suggested and implemented various voting algorithms including meta-model based voting, majority voting,
+          and summation of probability estimates that combine multiple models' predictions for a more stable and
+          accurate prediction. Showed that the accuracy can be improved by at least 0.5 % through voting.
+        - Showed that combining samples at the training and inference stages improve the accuracy by up to 1.6%
+          by eliminating noise and nulls in the time series distribution of signal strength.
+        - Developed a radio-mapping diagnostics tool that help detect outliers in the radio-mapping process. This,
+          in turn, helps repeating radio-mapping of certain zones when necessary increasing reliability of the data
+          used for training.
+        - Responsible for many data collection campaigns within the office that help analyze what kind of tools provide
+          better accuracy and determine the optimal transmitter density to achieve the maximum accuracy.
     - title: Machine Learning Engineer
       institution: Caretta Software, Turkey
       year: 2021-2022
