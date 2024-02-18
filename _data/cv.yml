@@ -111,5 +111,5 @@
     - title: Spectrum Sharing and Allocation
       items:
         - For a given bounded geographic region, frequency band, and time interval, optimal allocation
-          of spectrum resources that maximizes spectrum usage, and total utility, and minimizes the overall cost
+          of spectrum resources that maximizes spectrum usage and total utility, and minimizes the overall cost
           among various types of spectrum users.
