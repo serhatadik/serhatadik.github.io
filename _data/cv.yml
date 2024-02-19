@@ -92,7 +92,7 @@
   contents:
     - title: <a href="https://github.com/serhatadik/ML_Python"> ML Python Tutorials </a>
       year: 2022
-      description: The repository that stores scripts I used in a tutorial series that I organized at a company.
+      description: This repository hosts scripts from a tutorial series I led for corporate training, designed to enhance technical skills within the company.
 
 - title: Honors and Awards
   type: time_table
