@@ -90,7 +90,7 @@
 - title: Open Source Projects
   type: time_table
   contents:
-    - title: <a ML Python Tutorials href="https://github.com/serhatadik/ML_Python</a>
+    - title: <a href="https://github.com/serhatadik/ML_Python"> ML Python Tutorials </a>
       year: 2022
       description: The repository that stores scripts I used in a tutorial series that I organized at a company.
 
