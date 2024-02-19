@@ -90,9 +90,9 @@
 - title: Open Source Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: <a href="https://github.com/serhatadik/ML_Python</a>
+      year: 2022
+      description: The repository that stores scripts I used in a tutorial series that I organized at a company.
 
 - title: Honors and Awards
   type: time_table
