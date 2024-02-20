@@ -25,8 +25,8 @@ nav_order: 1
 </style>
 
 <div class="publications">
-  <h2 class="publication-title">reviews</h2>
-  <p class="small-text">contributions to the scientific community</p>
+  <p class="publication-title">reviews</p>
+  <p class="publication-description">contributions to the scientific community</p>
 
   {%- for review in site.reviews %}
       <h2 class="year">{{ review.year }}</h2>
