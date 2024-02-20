@@ -19,13 +19,10 @@ nav_order: 1
 
 <!-- Reviews Section with corrected alignment -->
 <div class="publications">
-  <h2 class="publication-title">Journals/Conferences Reviewed For </h2>
+  <h2 class="publication-title">journals reviewed For </h2>
 
   {%- for review in site.reviews %}
-      <h3 class="publication-title">{{ review.name }}</h3>
       <h2 class="year">{{ review.year }}</h2>
-      <!-- Maintain similar markup and class names as in your publications for stylistic consistency -->
-      <!-- Adjust the class as necessary to match the publications style -->
-    </div>
+      <h3 class="publication-title">{{ review.name }}</h3>
   {% endfor %}
 </div>
