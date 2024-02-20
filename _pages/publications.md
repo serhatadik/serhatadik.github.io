@@ -19,11 +19,12 @@ nav_order: 1
 
 <!-- Reviews Section with corrected alignment -->
 <div class="publications">
-  <h2 class="publication-title">reviews </h2>
-  <p class="publication-description">contributions to the scientific communities </p>
+  <h2 class="publication-title">reviews</h2>
+  <h6 class="publication-description">contributions to the scientific communities</h6>
 
   {%- for review in site.reviews %}
       <h2 class="year">{{ review.year }}</h2>
-      <h5 class="publication-title">{{ review.name }}</h5>
+      <!-- Corrected the <h5> tag and wrapped the publication title in an <a> tag -->
+      <h5 class="publication-title"><a href="{{ review.link }}">{{ review.name }}</a></h5>
   {% endfor %}
 </div>
