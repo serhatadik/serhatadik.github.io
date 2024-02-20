@@ -20,10 +20,10 @@ nav_order: 1
 <!-- Reviews Section with corrected alignment -->
 <div class="publications">
   <h2 class="publication-title">reviews </h2>
-  <h2 class="publication-description">contributions to the scientific communities </h2>
+  <p class="publication-description">contributions to the scientific communities </p>
 
   {%- for review in site.reviews %}
       <h2 class="year">{{ review.year }}</h2>
-      <h4 class="publication-title">{{ review.name }}</h4>
+      <h5 class="publication-title">{{ review.name }}</h5>
   {% endfor %}
 </div>
