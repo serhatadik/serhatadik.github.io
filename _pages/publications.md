@@ -20,12 +20,12 @@ nav_order: 1
 <!-- Reviews Section with corrected alignment -->
 <style>
 .small-text {
-  font-size: 0.8rem; /* Or any size smaller than the default for <h6> */
+  font-size: 0.9rem; /* Or any size smaller than the default for <h6> */
 }
 </style>
 
 <div class="publications">
-  <h2 class="publication-title">reviews</h2>
+  <h1 class="publication-title">reviews</h1>
   <p class="small-text">contributions to the scientific community</p>
 
   {%- for review in site.reviews %}
