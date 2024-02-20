@@ -17,16 +17,16 @@ nav_order: 1
 
 </div>
 
-<!-- Reviews Section with corrected alignment -->
-<div class="publications">
-  <h2 class="year">Journals/Conferences Reviewed For</h2>
+<!-- Reviews Section for Journals/Conferences -->
+<div class="reviews">
+  <h2 class="reviews-title">Journals/Conferences Reviewed For</h2>
 
+  <!-- Loop through reviews collection -->
   {%- for review in site.reviews %}
-    <!-- Ensure the div class here matches that of the publications for consistent styling -->
-    <div class="publication-entry">
-      <h3 class="publication-title">{{ review.name }}</h3>
-      <div class="publication-meta">Year: {{ review.year }}</div>
-      <!-- Adjust the class as necessary to match the publications style -->
+    <div class="review">
+      <h4 class="review-name">{{ review.name }}</h4>
+      <h2 class="year">{{y}}</h2>
+      <!-- Add more fields as necessary -->
     </div>
   {% endfor %}
 </div>
