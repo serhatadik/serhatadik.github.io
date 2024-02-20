@@ -18,9 +18,15 @@ nav_order: 1
 </div>
 
 <!-- Reviews Section with corrected alignment -->
+<style>
+.small-text {
+  font-size: 0.75rem; /* Or any size smaller than the default for <h6> */
+}
+</style>
+
 <div class="publications">
   <h2 class="publication-title">reviews</h2>
-  <h6 class="publication-description">contributions to the scientific communities</h6>
+  <p class="small-text">contributions to the scientific community</p>
 
   {%- for review in site.reviews %}
       <h2 class="year">{{ review.year }}</h2>
