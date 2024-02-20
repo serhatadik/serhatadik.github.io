@@ -25,7 +25,7 @@ nav_order: 1
 </style>
 
 <div class="publications">
-  <h1 class="publication-title">reviews</h1>
+  <h2 class="publication-title">reviews</h2>
   <p class="small-text">contributions to the scientific community</p>
 
   {%- for review in site.reviews %}
