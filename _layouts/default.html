@@ -32,6 +32,14 @@
     {% include scripts/mathjax.html %}
     {% include scripts/analytics.html %}
     {% include scripts/progressBar.html %}
-    <script src="{{ '/assets/js/countapi.js' | relative_url }}"></script
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+      $(document).ready(function(){
+          $.getJSON("https://api.countapi.xyz/hit/tadikserhat.com/visits", function(response) {
+              $("#visits").text(`Page views: ${response.value}`);
+          });
+      });
+    </script>
+
   </body>
 </html>
