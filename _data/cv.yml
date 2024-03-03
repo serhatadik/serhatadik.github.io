@@ -90,6 +90,9 @@
 - title: Open Source Projects
   type: time_table
   contents:
+    - title: <a href="https://github.com/serhatadik/slc-3534MHz-meas"> 3534 MHz Multi-Transmitter Measurement Campaign </a>
+      year: 2024
+      description: Dataset for the Salt Lake City 3533.89 - 3534.11 MHz Multi-Transmitter Measurement Campaign
     - title: <a href="https://github.com/serhatadik/ML_Python"> ML Python Tutorials </a>
       year: 2022
       description: This repository hosts scripts from a tutorial series I led for corporate training, designed to enhance technical skills within the company.
