@@ -92,8 +92,7 @@
   contents:
     - title: <a href="https://github.com/serhatadik/RadiationPatternProjection"> Antenna Radiation Pattern Projection </a>
       year: 2024
-      description: A detailed guide to projecting antenna radiation patterns onto spatial regions from the ground up. See <a href="https://tadikserhat.com/blog/2024/distill/"> </a> for a detailed explanation.
-
+      description: A detailed guide to projecting antenna radiation patterns onto spatial regions from the ground up. See <a href="https://tadikserhat.com/blog/2024/distill/"> this blog post </a> for a detailed explanation.
     - title: <a href="https://github.com/serhatadik/slc-3534MHz-meas"> 3534 MHz Multi-Transmitter Measurement Campaign </a>
       year: 2024
       description: Dataset for the Salt Lake City 3533.89 - 3534.11 MHz Multi-Transmitter Measurement Campaign
