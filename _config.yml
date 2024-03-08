@@ -246,7 +246,7 @@ jekyll-archives:
   permalinks:
     year: '/blog/:year/'
     tag: '/blog/tag/:name/'
-    category: '/blog/random/:name/'
+    category: '/blog/category/:name/'
 
 display_tags: [Radiation Patterns', 'Python'] # this tags will be dispalyed on the front page of your blog
 
