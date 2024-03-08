@@ -116,7 +116,7 @@ bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 blog_name: TadikTalks # blog_name will be displayed in your blog page
 blog_nav_title: blog # your blog must have a title for it to be displayed in the nav bar
 blog_description: a fusion of professional writings and personal perspectives
-permalink: /blog/:year/:title/
+permalink: /blog/:year/random/
 
 # Pagination
 pagination:
