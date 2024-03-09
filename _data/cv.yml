@@ -52,6 +52,11 @@
       institution: Cognosos Inc., USA
       year: 2024-Present
       description:
+        - Designed and developed an advanced data analytics dashboard leveraging Streamlit in Python,
+          significantly enhancing data analysis efficiency through automation. This comprehensive
+          tool provided deep insights into key factors, including outlier detection, accuracy scoring,
+          RSSI distribution, and tag/zone diagnostic visualizations, enabling informed decision-making
+          and operational improvements.
         - Working on indoor zone classification using various machine learning techniques including
           ANN, CNN and pre-ML techniques such as XGBoost. Analyzed the sources of misclassification, developed
           a hierarchical model combining an ANN with a One-vs-One classifier that helped improve accuracy by 1%
