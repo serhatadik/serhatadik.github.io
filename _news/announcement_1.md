@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our work on digital spectrum twinning is out &#x1F310; &#x2705;
+[Our work on digital spectrum twinning is out](https://ieeexplore.ieee.org/document/10293151) &#x1F310; &#x2705;
