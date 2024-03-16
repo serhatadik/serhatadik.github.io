@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-"Georeferenced Spectrum Occupancy Analysis Using Spatially Very Sparse Monitoring Data" has been accepted for publication in IEEE International Conference on Communications (ICC). <img src="/assets/img/oh-hey_parrot.gif" alt="Parrot" style="height: 20px; width: auto;">
+<i>Georeferenced Spectrum Occupancy Analysis Using Spatially Very Sparse Monitoring Data</i> has been accepted for publication in IEEE International Conference on Communications (ICC). <img src="/assets/img/oh-hey_parrot.gif" alt="Parrot" style="height: 20px; width: auto;">
