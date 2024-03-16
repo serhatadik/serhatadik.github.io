@@ -1,11 +1,1 @@
-function copyToClipboard(element) {
-  var codeBlock = element.parentElement.querySelector('code');
-  navigator.clipboard.writeText(codeBlock.textContent)
-    .then(() => {
-      // Optionally, display a message confirming the copy
-      alert('Code copied to clipboard!');
-    })
-    .catch(err => {
-      console.error('Error in copying text: ', err);
-    });
-}
+function copyToClipboard(e){var o=e.parentElement.querySelector("code");navigator.clipboard.writeText(o.textContent).then(()=>{alert("Code copied to clipboard!")})["catch"](e=>{console.error("Error in copying text: ",e)})}
