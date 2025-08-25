@@ -29,7 +29,6 @@ nav_order: 1
   <p class="small-text">contributions to the scientific community</p>
 
   {%- for review in site.reviews %}
-      <h2 class="year">{{ review.year }}</h2>
       <!-- Corrected the <h5> tag and wrapped the publication title in an <a> tag -->
       <h5 class="publication-title"><a href="{{ review.link }}">{{ review.name }}</a></h5>
   {% endfor %}
