@@ -48,7 +48,7 @@
 - title: Experience
   type: time_table
   contents:
-    - title: DSP & ML Research (PhD Funding)
+    - title: ML Research Engineering Intern
       institution: Polaris Wireless, USA
       year: Aug 2024-Present
       description:
@@ -137,7 +137,7 @@
         - Received PhD funding from Polaris Wireless for 2 consecutive years.
     - year: 2024
       items:
-        - Received a best-paper award for "POWDER-RDZ: Prototyping a Radio Dynamic Zone using the POWDER platform" at IEEE DySPAN 2024.
+        - 'Received a best-paper award for "POWDER-RDZ: Prototyping a Radio Dynamic Zone using the POWDER platform" at IEEE DySPAN 2024.'
         - Was nominated for employee of the month at Cognosos, Inc.
     - year: 2022
       items:

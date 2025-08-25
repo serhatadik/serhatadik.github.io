@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Started my DSP & ML internship at Polaris Wireless! Working on modernizing cellular location estimation systems and achieving significant accuracy improvements. 🚀
+Started my ML Research Engineering internship at Polaris Wireless! Working on modernizing cellular location estimation systems and achieving significant accuracy improvements. 🚀
