@@ -14,7 +14,7 @@
   contents:
     - title: PhD in ECE Dept.
       institution: Georgia Institute of Technology, USA
-      year: 2023-Present
+      year: Aug 2022-Present
       description:
         - Developed a method to quantify and visualize what is known about spectrum occupancy in a region from
           spectrum monitoring data recorded at a few fixed locations. Extrapolated the average observed signal strengths at the
@@ -48,9 +48,32 @@
 - title: Experience
   type: time_table
   contents:
+    - title: DSP & ML Research (PhD Funding)
+      institution: Polaris Wireless, USA
+      year: Aug 2024-Present
+      description:
+        - Leading efforts to modernize and optimize a cellular network-based location estimation engine, developing
+          advanced feature extraction pipelines for processing time-series network measurement data, timing advance
+          information, and propagation maps. Achieved a 6.1% reduction in Euclidean error compared to legacy systems.
+        - Designed and implemented advanced machine learning algorithms for location-based monitoring and detection systems. 
+          Developed novel training methodologies that demonstrated superior performance in challenging data scenarios with limited samples,
+          achieving up to 14.3% improved classification accuracy compared to traditional approaches.
+        - Created an innovative confidence scoring system using learned feature representations that, when combined with optimized thresholds,
+          enabled the model to achieve 100% classification accuracy on key performance metrics.
+        - The designed model architecture and implementation are under consideration within the company for patent filing or trade-secret status.
+        - Provided a brown-bag talk regarding efforts to modernize and improve geofence violation technology.
+        - Received PhD funding for 2 consecutive years (2024-2026).
+    - title: DSP & ML Intern  
+      institution: Deepsig, USA
+      year: May-Aug 2024
+      description:
+        - Implemented an optimal 2D filter for LTE channel estimation. Developed algorithms for Doppler and delay spread estimations.
+        - Worked on data preparation and novel loss function design for a specific generative channel model class.
+        - Worked on time and position interpolation of real-world LTE channel measurements.
+        - Computed channel statistics and time-of-flight for the measurements and generated a set of ground truth channels.
     - title: Research and Development Intern
       institution: Cognosos Inc., USA
-      year: 2024-Present
+      year: Jan-May 2024
       description:
         - Designed and developed an advanced data analytics dashboard leveraging Streamlit in Python,
           significantly enhancing data analysis efficiency through automation. This comprehensive
@@ -74,6 +97,7 @@
           used for training.
         - Responsible for many data collection campaigns that help analyze what kind of tools provide
           better accuracy and determine the optimal transmitter density to achieve the maximum accuracy.
+        - Was nominated for employee of the month during the internship.
     - title: Machine Learning Engineer
       institution: Caretta Software, Turkey
       year: 2021-2022
@@ -108,6 +132,13 @@
 - title: Honors and Awards
   type: time_table
   contents:
+    - year: 2024-2026
+      items:
+        - Received PhD funding from Polaris Wireless for 2 consecutive years.
+    - year: 2024
+      items:
+        - Received a best-paper award for "POWDER-RDZ: Prototyping a Radio Dynamic Zone using the POWDER platform" at IEEE DySPAN 2024.
+        - Was nominated for employee of the month at Cognosos, Inc.
     - year: 2022
       items:
         - Graduated with high honors from the Electrical Engineering and Physics Departments at Boğaziçi University.
